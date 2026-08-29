@@ -1,0 +1,115 @@
+* {
+    font:   "Terminus (TTF) 18px";
+
+   	bg0     : #000000;
+bg1     : #0a0014;
+bg2     : #1a0033;
+bg3     : #9b30ff;
+fg0     : #e0d6ff;
+fg1     : #b399e6;
+fg2     : #3d2266;
+red     : #8a4fff;
+green   : #a970ff;
+yellow  : #c299ff;
+blue    : #6633cc;
+magenta : #9b30ff;
+cyan    : #7a52e6;	
+white	: #ffffff;
+    accent: @magenta;
+    urgent: @red;
+
+    background-color : transparent;
+    text-color       : @bg3; 
+
+  margin  : 2;
+  padding : 0;
+  spacing : 0;
+}
+
+element-icon, element-text, scrollbar {
+  cursor: pointer;
+}
+
+window {
+  location : center;
+  width    : 380px;
+  x-offset : 4px;
+  y-offset : 26px;
+
+  background-color: @bg0;
+  border: 4px;
+  border-color: @accent;
+  border-radius: 0px;
+}
+
+inputbar {
+  spacing  : 8px;
+  padding  : 10px 8px;
+  children : [ icon-search, entry ];
+
+  background-color: @bg0;
+}
+
+icon-search, entry, element-icon, element-text {
+  vertical-align: 0.5;
+}
+
+icon-search {
+  expand   : false;
+  filename : "search-symbolic";
+  size     : 14px;
+}
+
+textbox {
+  padding          : 4px 8px;
+  background-color : @bg1;
+}
+
+listview {
+  padding      : 4px 0px;
+  lines        : 12;
+  columns      : 1;
+  scrollbar    : true;
+  fixed-height : false;
+  dynamic      : true;
+}
+
+element {
+  padding : 2px 8px;
+  spacing : 8px;
+}
+
+element normal urgent {
+  text-color: @white;
+}
+
+element normal active {
+  text-color: @fg2;
+}
+
+element alternate active {
+  text-color: @fg2;
+}
+
+element selected {
+  text-color       : @accent;
+  background-color : @bg3;
+}
+
+element selected urgent {
+  background-color: @fg1;
+}
+
+element-icon {
+  size: 0.8em;
+}
+
+element-text {
+  text-color: @white;
+}
+
+scrollbar {
+  handle-width : 0px;
+  handle-color : @bg0;
+  padding      : 0 4px;
+}
