@@ -8,6 +8,7 @@
 Terminal Emulator: st <br>
 Window Manager: dwm <br>
 Menu: rofi
+Wallpapers: xwallpaper
 
 # Keybinds
 Kill Window: Super+Q <br>
