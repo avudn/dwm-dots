@@ -10,9 +10,9 @@ Window Manager: dwm <br>
 Menu: rofi
 
 # Keybinds
-Kill Window: Super+Q
-Workspaces(1-10): Super+1-10
-Rofi drun: Super+D
+Kill Window: Super+Q <br>
+Workspaces(1-10): Super+1-10 <br>
+Rofi drun: Super+D <br>
 
 ## Installation
 To apply st & dwm configs, you need to compile them with config.h files provided in this repository.
