@@ -9,7 +9,13 @@ Terminal Emulator: st <br>
 Window Manager: dwm <br>
 Menu: rofi
 
+# Keybinds
+Kill Window: Super+Q
+Workspaces(1-10): Super+1-10
+Rofi drun: Super+D
+
 ## Installation
-To apply st & dwm configs, you need to compile them with config.h files provided in this repository. You need to git clone dwm, and st, and put config.h from this repository into their respective folders.
+To apply st & dwm configs, you need to compile them with config.h files provided in this repository.
+
 
 To install matrix theme for rofi, simply run mv matrix.rasi /usr/share/rofi/themes, and then select it in Rofi Theme Selector.
